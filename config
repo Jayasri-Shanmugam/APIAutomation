@@ -1,0 +1,15 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/katalon-studio-samples/web-service-tests
+	fetch = +refs/heads/update-info:refs/remotes/origin/update-info
+	fetch = +refs/heads/TES-1829:refs/remotes/origin/TES-1829
+	fetch = +refs/heads/thuong_add_keywords:refs/remotes/origin/thuong_add_keywords
+	fetch = +refs/heads/master:refs/remotes/origin/master
+	fetch = +refs/heads/added-verification-script:refs/remotes/origin/added-verification-script
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
