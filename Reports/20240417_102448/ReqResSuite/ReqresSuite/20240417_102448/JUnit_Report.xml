@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ReqresSuite" time="2.204" tests="1" failures="0" errors="0">
+   <testsuite name="ReqresSuite" tests="1" failures="0" errors="0" time="2.204" skipped="0" timestamp="17-04-2024T10:24:55" hostname="jayasri.shanmugam - ZSCHN01LP0391.zucisystems.com" id="Test Suites/ReqResSuite/ReqresSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jayasri.shanmugam\\Katalon Studio\\API Automation\\Reports\\20240417_102448\\ReqResSuite\\ReqresSuite\\20240417_102448"/>
+         <property name="logFiles" value="C:\\Users\\jayasri.shanmugam\\Katalon Studio\\API Automation\\Reports\\20240417_102448\\ReqResSuite\\ReqresSuite\\20240417_102448\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jayasri.shanmugam - ZSCHN01LP0391.zucisystems.com"/>
+         <property name="hostAddress" value="192.168.15.146"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/ReqResTests/ListUsersTest" time="1.894" classname="Test Cases/ReqResTests/ListUsersTest" status="PASSED">
+         <system-out><![CDATA[17-04-2024T10:24:55 - [TEST_CASE][PASSED] - Test Cases/ReqResTests/ListUsersTest: Test Cases/ReqResTests/ListUsersTest
+
+17-04-2024T10:24:56 - [TEST_STEP][PASSED] - ResponseUsers = sendRequest(findTestObject("RestReqServices/ListUsers")): Send request successfully
+
+17-04-2024T10:24:57 - [MESSAGE][INFO] - HAR: C:\Users\jayasri.shanmugam\Katalon Studio\API Automation\Reports\20240417_102448\ReqResSuite\ReqresSuite\20240417_102448\requests\main\0.har
+
+17-04-2024T10:24:57 - [MESSAGE][PASSED] - Send request successfully
+
+17-04-2024T10:24:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(ResponseUsers, 200, STOP_ON_FAILURE): Verify response status code successfully
+
+17-04-2024T10:24:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+17-04-2024T10:24:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "data[0].first_name", "Michael"): Verify element property value successfully
+
+17-04-2024T10:24:57 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-04-2024T10:24:55 - [TEST_SUITE][PASSED] - ReqresSuite: Test Cases/ReqResTests/ListUsersTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

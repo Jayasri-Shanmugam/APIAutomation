@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ReqresSuite,,,,17-04-2024 10:24:55,17-04-2024 10:24:57,2.204s,PASSED
+,,,,,,,
+Test Cases/ReqResTests/ListUsersTest,,,,17-04-2024 10:24:55,17-04-2024 10:24:57,1.894s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""RestReqServices/ListUsers""))",,,,17-04-2024 10:24:56,17-04-2024 10:24:57,1.595s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200, STOP_ON_FAILURE)",,,,17-04-2024 10:24:57,17-04-2024 10:24:57,0.033s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""data[0].first_name"", ""Michael"")",,,,17-04-2024 10:24:57,17-04-2024 10:24:57,0.088s,PASSED

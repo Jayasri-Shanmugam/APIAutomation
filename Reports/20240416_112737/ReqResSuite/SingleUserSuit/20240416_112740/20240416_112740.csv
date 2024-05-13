@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SingleUserSuit,,,,16-04-2024 11:28:00,16-04-2024 11:28:03,2.591s,FAILED
+,,,,,,,
+Test Cases/ReqResTests/SingleUserTest,,,,16-04-2024 11:28:03,16-04-2024 11:28:03,0.094s,FAILED
+"SingleUserResponse = sendRequest(findTestObject(""RestReqServices/SingleUser""))",,,,16-04-2024 11:28:03,16-04-2024 11:28:03,0.075s,PASSED
+"verifyResponseStatusCode(SingleUserResponse, 207)",,,,16-04-2024 11:28:03,16-04-2024 11:28:03,0.004s,FAILED
